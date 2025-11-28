@@ -1,16 +1,12 @@
 {
   "name": "react-typescript-vite-template",
   "version": "1.0.0",
-  "description": "A frontend template project which uses React, TypeScript, Vite, Jest, and RTL",
+  "description": "A frontend template project which uses React, TypeScript, Vite, TailwindCSS, Jest, and RTL",
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "serve": "webpack serve --config webpack.config.dev.js",
-    "dev": "webpack --config webpack.config.dev.js",
-    "watch": "webpack --watch --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js",
-    "vite-dev": "vite",
-    "vite-build": "vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "jest"
   },
