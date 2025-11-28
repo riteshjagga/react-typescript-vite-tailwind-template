@@ -15,7 +15,7 @@ const App = (): React.ReactElement => {
 
   return (
     <>
-      <h1>React Typescript Webpack Template</h1>
+      <h1>React + TypeScript + Vite + TailwindCSS Template</h1>
       <Counter value={count} onDecrement={handleDecrement} onIncrement={handleIncrement} />
     </>
   )
